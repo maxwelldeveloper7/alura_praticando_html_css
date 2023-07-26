@@ -5,8 +5,15 @@
 
 
 body{
+    height: 100vh;/*definindo a altura da tela, ocupa toda a altura da tela*/
+    box-sizing: border-box;/* faz que os elementos filhos permaneçam sempre dentro do elemento pai*/
     background-color: #000000;
     color: #F6F6F6;
+}
+
+.apresentacao {
+    display: flex;
+    align-items: center;/* alinha os itens*/
 }
 
 .titulo-destaque {
